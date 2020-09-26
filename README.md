@@ -16,6 +16,9 @@ Tady budu ukládat svůj závěrečný maturitní projekt. Chci s <a href="https
 
 <h3>Průběh práce</h3>
 
+h5>23. 09. 2020</h5>
+<p>Jen lehký aktualizační commit. Přibyl tam formulář pro login, ale ten společně s registrací vymažu, jelikož chci udělat všechno v Django REST. 
+
 <h5>16. 09. 2020</h5>
 <p>Vytvořil jsem vlastní funkční registrační formulář, jelikož defaultní mi nestačil. Uživatel se registruje pomocí
  jména a hesla a poté je uložen do databáze. Nyní je potřeba doplnit přihlašovací formulář, tlačítko pro odhlášení, 
