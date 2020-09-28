@@ -14,7 +14,14 @@ Tady budu ukládat svůj závěrečný maturitní projekt. Chci s <a href="https
 <a href="https://www.youtube.com/channel/UCTZRcDjjkVajGL6wd76UnGg/about">Krásné tutoriály na Django framework</a><br>
 <a href="https://www.youtube.com/watch?v=X7DWErkNVJs">Posílání emailů</a><br>
 
-<h3>Průběh práce</h3>
+<h3>Průběh práce</h3> 
+
+<h5>28. 09. 2020</h5>
+<p>Hledání ideální knihovny umožňující jak emailovou verifikaci, tak registraci a login pomocí sociálních sítí a 
+její následná implementace. Taky oprava hloupých bugů. Mám v REST frameworku konečně funkční jak normální registraci, 
+tak login. <br>
+
+<i>Doba práce: 5 hodin </i></p>
 
 <h5>23. 09. 2020</h5>
 <p>Jen lehký aktualizační commit. Přibyl tam formulář pro login, ale ten společně s registrací vymažu, jelikož chci udělat všechno v Django REST. 
@@ -30,7 +37,8 @@ Tady budu ukládat svůj závěrečný maturitní projekt. Chci s <a href="https
  <br>
  <br>
  Tento commit v sobě nemá moc kódu, jelikož jsem většinu času buď opravoval bugy týkající se urls.py a views.py,
- nebo jsem řešil a hledal, jak bych mohl do aplikace vůbec login a sign up vložit.
+ nebo jsem řešil a hledal, jak bych mohl do aplikace vůbec login a sign up vložit.<br>
+
 <i>Doba práce: 5-6 hodin </i></p>
 
 <h5>13. 09. 2020</h5>
