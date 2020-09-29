@@ -20,6 +20,8 @@ from taskboard import views
 from . import settings
 from django.contrib.staticfiles.urls import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from dj_rest_auth.registration.views import VerifyEmailView
+from allauth.account.views import ConfirmEmailView
 
 urlpatterns = [
     path('home', views.home, name='home'),
@@ -27,6 +29,7 @@ urlpatterns = [
     path(r'accounts/', include('accounts.urls')),
     path('dj-rest-auth/', include('dj_rest_auth.urls')),
     path('dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')),
+    path(r'dj-rest-auth/registration/account-confirm-email/(?P<key>[-:\w]+)/$', ConfirmEmailView.as_view(), name='account_email_verification_sent')
 ]
 
 urlpatterns += staticfiles_urlpatterns()
