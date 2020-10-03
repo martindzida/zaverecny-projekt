@@ -16,6 +16,11 @@ Tady budu ukládat svůj závěrečný maturitní projekt. Chci s <a href="https
 
 <h3>Průběh práce</h3> 
 
+<h5>03. 10. 2020</h5>
+<p>Do Djanga se dá nyní jak přihlásit, tak registrovat pomocí jednoduchého webového rozhraní v Reactu. Nyní, když obě aplikace jedou spolu, můžu konečně obojí hodit pro snažší instalaci do Dockeru.<br>
+
+<i>Doba práce: 3 hodin </i></p>
+
 <h5>28. 09. 2020</h5>
 <p>Hledání ideální knihovny umožňující jak emailovou verifikaci, tak registraci a login pomocí sociálních sítí a 
 její následná implementace. Taky oprava hloupých bugů. Mám v REST frameworku konečně funkční jak normální registraci, 
