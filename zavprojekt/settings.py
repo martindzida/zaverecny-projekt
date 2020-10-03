@@ -27,6 +27,29 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'debug.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000'
+ ]
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,6 +62,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'taskboard',
+    'corsheaders',
     'dj_rest_auth',
     'rest_framework',
     'rest_framework.authtoken',
@@ -70,6 +94,7 @@ ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 ACCOUNT_USERNAME_REQUIRED = False
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -80,6 +105,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'zavprojekt.urls'
+
+
 
 TEMPLATES = [
     {

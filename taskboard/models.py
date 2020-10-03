@@ -108,3 +108,9 @@ class Attachment(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Log(models.Model):
+    text = models.CharField(max_length=100, verbose_name="Text", blank=False, null=False)
+    time = models.DateTimeField(auto_now=True)
+    board = models.ForeignKey(Taskboard, on_delete=models.CASCADE)
