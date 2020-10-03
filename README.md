@@ -1,3 +1,4 @@
+<h1>Píšu ti do README hihi</h1>
 <h1>Závěrečný projekt</h1>
 Tady budu ukládat svůj závěrečný maturitní projekt. Chci s <a href="https://github.com/martindzida">Martinem Dzidou</a> udělat společnou nástěnku úkolů. Já mám na starosti back-end v Djangu a Martin bude dělat front-end v React.js.
 
